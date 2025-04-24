@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.fe927caf.css",
+    "main.js": "/home/static/js/main.2b06008e.js",
+    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
+    "static/media/img_nakasone.png": "/home/static/media/img_nakasone.957b502a27d5ba9eaa7e.png",
+    "static/media/meiji.png": "/home/static/media/meiji.7d40e19078dd95ec0d73.png",
+    "static/media/EQUES.png": "/home/static/media/EQUES.be3c92aa5759cab098ef.png",
+    "static/media/wacul.png": "/home/static/media/wacul.24ba157e7cc4bd383ca9.png",
+    "index.html": "/home/index.html",
+    "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
+    "main.2b06008e.js.map": "/home/static/js/main.2b06008e.js.map",
+    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.2b06008e.js"
+  ]
+}

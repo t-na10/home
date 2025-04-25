@@ -48,7 +48,6 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "t-na10",
   lengthPerUser: 0,
   specificRepos: [
     { username: "t-na10", repoNames: ["handwriting-generation", "local-llm-ollama-webui", "marker"] },

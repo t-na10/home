@@ -14,7 +14,10 @@ import Navbar from "./components/Navbar";
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
-  const usernamesForProject = [...new Set(repos.specificRepos.map(spec => spec.username))];
+  const usernamesForProject = Array.isArray(repos.specificRepos)
+    ? [...new Set(repos.specificRepos.map(spec => spec.username))]
+    : [];
+    
   return (
     <>
       <MainBody
@@ -40,7 +43,7 @@ const Home = React.forwardRef((props, ref) => {
       {repos.show && (
         <Project
           heading={repos.heading}
-          usernames={usernamesForProject} 
+          usernames={usernamesForProject}
           lengthPerUser={repos.lengthPerUser}
           specificRepos={repos.specificRepos}
         />

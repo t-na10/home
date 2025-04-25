@@ -68,8 +68,11 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "t-na10",
-  reposLength: 4,
-  specificRepos: [],
+  lengthPerUser: 0,
+  specificRepos: [
+    { username: "t-na10", repoNames: ["handwriting-generation", "local-llm-ollama-webui", "marker"] },
+    { username: "sakurai-lab", repoNames: ["nksn-thesis2024", "paper-retrieval-qa-chat"] }
+  ],
 };
 
 // Leadership SECTION
